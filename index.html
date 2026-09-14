@@ -6,20 +6,25 @@
     <title>Weather Site</title>
 </head>
 <body>
+    <header>
     <!--My navigation list (unorganized / bullet points)-->
+    <nav>
     <ul>
-        <li>  <a href="./index.html">Home</a>                 </li>
+        <li>  <a href="#main_heading">Home</a>                </li>
         <li>  <a href="./about-us.html">About Us</a>          </li>
         <li>  <a href="./our-services.html">Our Services</a>  </li>
         <li>  <a href="./gallery.html">Gallery</a>            </li>
         <li>  <a href="./contact.html">Contact Us</a>         </li>
     </ul>
-
-    <img src="./_images/weather-icon.jpg" alt="Weather_icon" width="150" height="150">
+    </nav>
 
     <!--Heading and Sub-Heading here (Added "title" to Heading so that when I hover over
     the heading, a little note pops up!)-->
-    <h1 title="Breaking_News!">Weather Forecast</h1>
+    <div>
+    <h1 id="main_heading" title="Breaking_News!">Weather Forecast</h1>
+    </header>
+
+    <main>
     <h3>The Latest in Cape Town</h3>
 
     <!--Paragraph here (Added bold and italic to my text)-->
@@ -32,5 +37,16 @@
         <li>Rainy</li>
         <li>Cloudy</li>
     </ol>
+
+    <img src="./_images/weather-icon.jpg" alt="Weather_icon" width="150" height="150">
+
+    </main>
+    
+    <footer>
+    <a href="./_documents/Weather_Report.txt" download target="_blank"> 
+        <h5>Download Weather Report Here</h5>
+    </a>
+    </footer>
+    </div>
 </body>
 </html>
